@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--보여지지 않는 부분-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{# flask 주석처리 #}
+<body> <!--보여지는 부분-->
+    {% if title %} <!--flask 자체 if문-->
+        {{ title }} <!--flask 자체 출력문-->
+    {% endif %}
+    <P>Hello, Flask!</P>
+    <a href="/first">Go First</a>
+    <a href="/second">Go second</a>
+</body>
+</html>
