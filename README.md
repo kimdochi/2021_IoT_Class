@@ -11,6 +11,6 @@
 * multimedia
 * web
 
-```
+```python
 print('Hello, World')
 ```
