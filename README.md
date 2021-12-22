@@ -10,3 +10,7 @@
 * communication
 * multimedia
 * web
+
+```
+print('Hello, World')
+```
